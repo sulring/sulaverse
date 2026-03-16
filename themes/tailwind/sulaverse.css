@@ -1,0 +1,66 @@
+/* Sulaverse — Tailwind v4 theme
+ * Usage: @import "./sulaverse.css"; in your main CSS entry point
+ *        after @import "tailwindcss";
+ *
+ * Utilities generated (examples):
+ *   bg-background   text-text    border-accent-6
+ *   bg-surface      text-muted   ring-accent-1
+ */
+
+/* ── Runtime tokens (dark default, .light override) ── */
+
+:root {
+  --background:    hsl(221 33% 13%);
+  --surface:       hsl(220 24% 15%);
+  --overlay:       hsl(219 25% 18%);
+  --muted:         hsl(221 12% 47%);
+  --subtle:        hsl(228 15% 61%);
+  --text:          hsl(218 52% 91%);
+  --accent-1:      hsl(0   79% 65%);
+  --accent-2:      hsl(24  86% 72%);
+  --accent-3:      hsl(35  54% 84%);
+  --accent-4:      hsl(203 51% 49%);
+  --accent-5:      hsl(184 50% 68%);
+  --accent-6:      hsl(247 25% 66%);
+  --hi-low:        hsl(214 18% 15%);
+  --hi-med:        hsl(223 15% 28%);
+  --hi-high:       hsl(218 13% 36%);
+}
+
+.light {
+  --background:    hsl(40  48% 94%);
+  --surface:       hsl(36  100% 97%);
+  --overlay:       hsl(36  61% 92%);
+  --muted:         hsl(238 15% 64%);
+  --subtle:        hsl(228 14% 44%);
+  --text:          hsl(220 28% 22%);
+  --accent-1:      hsl(6   48% 48%);
+  --accent-2:      hsl(24  78% 47%);
+  --accent-3:      hsl(35  46% 58%);
+  --accent-4:      hsl(203 55% 44%);
+  --accent-5:      hsl(184 33% 54%);
+  --accent-6:      hsl(247 22% 50%);
+  --hi-low:        hsl(34  35% 91%);
+  --hi-med:        hsl(30  44% 86%);
+  --hi-high:       hsl(36  29% 75%);
+}
+
+/* ── Tailwind v4 theme registration ───────────────── */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface:    var(--surface);
+  --color-overlay:    var(--overlay);
+  --color-muted:      var(--muted);
+  --color-subtle:     var(--subtle);
+  --color-text:       var(--text);
+  --color-accent-1:   var(--accent-1);
+  --color-accent-2:   var(--accent-2);
+  --color-accent-3:   var(--accent-3);
+  --color-accent-4:   var(--accent-4);
+  --color-accent-5:   var(--accent-5);
+  --color-accent-6:   var(--accent-6);
+  --color-hi-low:     var(--hi-low);
+  --color-hi-med:     var(--hi-med);
+  --color-hi-high:    var(--hi-high);
+}

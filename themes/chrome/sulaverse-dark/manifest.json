@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Sulaverse Dark",
+  "version": "1.0",
+  "description": "Sulaverse dark color palette for Chrome",
+  "theme": {
+    "colors": {
+      "frame":                    [ 22,  29,  44],
+      "frame_inactive":           [ 29,  35,  47],
+      "toolbar":                  [ 29,  35,  47],
+      "tab_background_text":      [105, 115, 134],
+      "tab_text":                 [220, 229, 244],
+      "bookmark_text":            [220, 229, 244],
+      "ntp_background":           [ 22,  29,  44],
+      "ntp_text":                 [220, 229, 244],
+      "ntp_link":                 [ 61, 140, 189],
+      "ntp_header":               [ 22,  29,  44],
+      "button_background":        [ 61,  67,  82],
+      "control_background":       [ 34,  42,  57],
+      "omnibox_background":       [ 34,  42,  57],
+      "omnibox_text":             [220, 229, 244]
+    },
+    "tints": {
+      "buttons":                  [0.59, 0.50, 0.65],
+      "frame":                    [-1,   -1,   -1],
+      "frame_inactive":           [-1,   -1,   -1]
+    },
+    "properties": {
+      "ntp_logo_alternate": 1
+    }
+  }
+}

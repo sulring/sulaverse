@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+  "name": "Sulaverse Light",
+  "version": "1.0",
+  "description": "Sulaverse light color palette for Chrome",
+  "theme": {
+    "colors": {
+      "frame":                    [247, 242, 232],
+      "frame_inactive":           [255, 249, 240],
+      "toolbar":                  [255, 249, 240],
+      "tab_background_text":      [149, 150, 177],
+      "tab_text":                 [ 36,  50,  76],
+      "bookmark_text":            [ 36,  50,  76],
+      "ntp_background":           [247, 242, 232],
+      "ntp_text":                 [ 36,  50,  76],
+      "ntp_link":                 [ 51, 127, 174],
+      "ntp_header":               [247, 242, 232],
+      "button_background":        [235, 219, 204],
+      "control_background":       [247, 237, 222],
+      "omnibox_background":       [247, 237, 222],
+      "omnibox_text":             [ 36,  50,  76]
+    },
+    "tints": {
+      "buttons":                  [0.68, 0.47, 0.42],
+      "frame":                    [-1,   -1,   -1],
+      "frame_inactive":           [-1,   -1,   -1]
+    },
+    "properties": {
+      "ntp_logo_alternate": 0
+    }
+  }
+}
